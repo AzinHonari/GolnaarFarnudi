@@ -1,0 +1,1282 @@
+﻿/*#region colors*/
+:root {
+    --clrBlack100: rgb(10, 10, 10);
+    --clrBlack200: rgb(15, 15, 15);
+    --clrBlack300: rgb(20, 20, 20);
+    --clrBlack400: rgb(26, 26, 26);
+    --clrBlack500: rgb(31, 31, 31);
+    --clrBlack600: rgb(36, 36, 36);
+    --clrBlack700: rgb(41, 41, 41);
+    --clrBlack800: rgb(46, 46, 46);
+    --clrBlack900: rgb(51, 51, 51);
+    --clrGray100: rgb(128, 128, 128);
+    --clrGray200: rgb(140, 140, 140);
+    --clrGray300: rgb(153, 153, 153);
+    --clrGray400: rgb(166, 166, 166);
+    --clrGray500: rgb(179, 179, 179);
+    --clrGray600: rgb(191, 191, 191);
+    --clrGray700: rgb(204, 204, 204);
+    --clrGray800: rgb(217, 217, 217);
+    --clrGray900: rgb(229, 229, 229);
+    --clrBlue100: rgb(37, 36, 64);
+    --clrBlue200: rgb(45, 43, 77);
+    --clrBlue300: rgb(52, 50, 89);
+    --clrBlue400: rgb(59, 57, 102);
+    --clrBlue500: rgb(67, 64, 115);
+    --clrBlue600: rgb(74, 71, 128);
+    --clrBlue700: rgb(82, 79, 140);
+    --clrBlue800: rgb(89, 86, 153);
+    --clrBlue900: rgb(100, 96, 170);
+    --clrOrange100: rgb(140, 66, 20);
+    --clrOrange200: rgb(153, 72, 21);
+    --clrOrange300: rgb(166, 78, 23);
+    --clrOrange400: rgb(179, 84, 25);
+    --clrOrange500: rgb(191, 90, 27);
+    --clrOrange600: rgb(204, 96, 29);
+    --clrOrange700: rgb(217, 102, 30);
+    --clrOrange800: rgb(219, 108, 32);
+    --clrOrange900: rgb(242, 112, 34);
+    --clrRed900: rgb(236, 29, 37);
+    --clrPink100: rgb(255 0 217);
+    --clrPink75: rgb(255 64 227);
+    --clrPink50: rgb(255 127 236);
+    --clrPink25: rgb(255 191 245);
+}
+
+html {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+body {
+    color: var(--clrBlack800);
+}
+
+a{
+    text-decoration: underline;
+}
+.wrapper {
+    max-width: 75rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    padding:2rem;
+}
+
+/*header ----------------------------------------------------*/  
+header {
+    background-color: var(--clrBlack900);
+    overflow: hidden;
+    color: var(--clrPink25);
+}
+
+    header img {
+        display: block;
+        box-sizing: border-box;
+        float: left;
+        width: 10rem;
+        height: 10rem;
+        margin-right: 2rem;
+        border-radius: 1rem;
+    }
+
+    header h1 {
+        float: left;
+        display: block;
+        box-sizing: border-box;
+        width: calc(100% - 12em);
+        padding-top: 2rem;
+        text-align: left;
+    }
+
+        header h1 span {
+            display: block;
+            box-sizing: border-box;
+            width: 100%;
+            float: left;
+           
+        }
+
+        header h1 span {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+
+            header h1 span:first-of-type {
+                font-weight: 800;
+                font-size: 2rem;
+                line-height: 2.5rem;
+            }
+
+            header h1 span:last-of-type {
+                font-size: 0.75rem;
+            }
+
+/*main ----------------------------------------------------*/  
+main .info {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    background-color: var(--clrBlack900);
+    color: var(--clrPink25);
+    overflow: hidden;
+}
+
+    main .info .content {
+        display: block;
+        box-sizing: border-box;
+        width: calc(100% / 2 - 1rem);
+        float: left;
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 1.65rem;
+        font-weight: 400;
+    }
+
+        main .info .content:last-of-type {
+            margin-left: 2rem;
+        }
+
+    main .info::after {
+        display: block;
+        box-sizing: border-box;
+        content: "";
+        width: 0.05rem;
+        background-color: var(--clrPink25);
+        position: absolute;
+        left: calc(50% - 1rem);
+        top: 2rem;
+        bottom: 2rem;
+    }
+
+    main .info .content > div {
+        margin-bottom: 2rem;
+    }
+
+        main .info .content > div:last-of-type {
+            margin-bottom: 0;
+        }
+
+    main .info .content h2 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        color: var(--clrPink75);
+    }
+
+    main .info .content .about {
+        display: block;
+        box-sizing: border-box;
+    }
+
+
+     main .info .content .contact span:first-of-type,
+     main .info .content .status span:first-of-type
+      {
+        display: inline-block;
+        width: 1.5rem;
+        font-size: 1rem;
+    } 
+
+/*experience ----------------------------------------------------*/  
+main .experience {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+    main .experience h2 {
+        color: var(--clrPink100);
+        font-weight: 800;
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    main .experience h3 {
+        margin-top: 2rem;
+        color: var(--clrBlack600);
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    main .experience h3 span{
+        color: var(--clrBlack100);
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    main .experience time span:first-of-type,
+    main .experience h4  {
+        color: var(--clrBlack100);
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    main .experience h4  {
+        margin-bottom: 1rem;
+    }
+
+    main .experience time span:last-of-type {
+        color: var(--clrBlack100);
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+
+    main .experience .wrapper li {
+        display: block;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    main .experience .wrapper > ol > li {
+        color: var(--clrBlack900);
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-left: 2rem;
+        margin-left: 1.5rem;
+    }
+
+    main .experience .wrapper ol li.jobtitle {
+        margin-left: 0;
+    }
+
+    main .experience .wrapper .firstjob li.jobtitle h5:last-of-type{
+        margin-top: 1rem;
+    }
+
+
+        main .experience .wrapper > ol > li > ol > li > ol > li {
+            margin-left: 1.25rem;
+        }
+
+        main .experience .wrapper > ol.firstjob > li > ol > li::before, 
+        main .experience .wrapper > ol.secondjob > li > ol > li::before,
+        main .experience .wrapper > ol.firstjob > li > ol > li > ol > li::before, 
+        main .experience .wrapper > ol.secondjob > li > ol > li > ol > li::before {
+            content: "•";
+            padding-right: 0.75rem;
+            color: var(--clrPink100);
+            position: absolute;
+            top:0;
+            bottom:0;
+            left:-0.75rem;
+        }
+
+        main .experience .wrapper > ol.firstjob > li > ol > li:last-of-type::before,
+        main .experience .wrapper > ol.secondjob > li > ol > li:last-of-type::before {
+            content: "";
+        } 
+
+/*skills ----------------------------------------------------*/      
+main .skills {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color:var(--clrGray100);
+    padding: 2rem 0;
+}
+
+main .skills h2 {
+    color: var(--clrBlack500);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+main .skills .wrapper ul{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+    main .skills .wrapper ul li{
+        display: block;
+        position: relative;
+        width: calc(100% / 3 - 1rem);
+        box-sizing: border-box;
+        border :solid white 0.2rem;
+        float: left;
+        margin-right: 1.5rem;
+    }
+
+    main .skills .wrapper ul li:nth-of-type(3n+3){
+        margin-right: 0;
+    }
+
+        main .skills .wrapper ul li {
+            text-align: left;
+            border-radius: 0.5rem;
+            border: solid 0.01rem var(--clrPink25);
+            color: var(--clrPink25);
+            font-weight: 400;
+            height: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        main .skills .wrapper ul li i {
+            display: block;
+            box-sizing: border-box;
+            background-color: var(--clrBlack900);
+            position: absolute;
+            left: 0.05rem;
+            top: 0.05rem;
+            bottom: 0.05rem;
+            border-radius: 0.5rem;
+        }
+
+            main .skills .wrapper ul li h5 {
+                position: absolute;
+                display: block;
+                box-sizing: border-box;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0.1rem;
+                font-size: 0.75rem;
+                padding-left: 0.5rem;
+                
+                z-index: 1;
+            }
+
+            main .skills .wrapper ul li h5 strong{
+                display: block;
+                float: left;
+                margin-top: 0.26rem;
+            }
+
+            main .skills .wrapper ul li h5 span{
+                display: block;
+                width: 0.7rem;
+                height: 0.7rem;
+                border-radius: 0.25rem;
+                float: left;
+                margin-right: 0.5rem;
+                margin-top: 0.3rem;
+            }
+
+            main .skills .backendskill{
+                background-color:goldenrod;
+            }
+            main .skills .frontendskill{
+                background-color:var(--clrPink100);
+            }
+
+            main .skills .wrapper h3 {
+                display: inline-block;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: var(--clrBlack500);
+                font-weight: 600;
+                margin-right: 2rem;
+            }
+
+            main .skills .wrapper h3:last-of-type {
+                margin-right:0;
+            }
+
+            main .skills .wrapper h3 span:first-of-type {
+                display: inline-block;
+                box-sizing: border-box;
+                width: 0.85rem;
+                height: 0.85rem;
+                border-radius: 0.35rem;
+            }
+/*interests ----------------------------------------------------*/
+main .interests {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--clrGray600);
+}
+
+    main .interests h2 {
+        color: var(--clrBlack500);
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    main .interests ul{
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    main .interests ul li{
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+        width: calc(100% / 5);
+        float: left;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    main .interests ul li::before{
+        display: block;
+        position: absolute;
+        box-sizing: border-box;
+        content: '--';
+        top:3rem;
+        right: 0;
+        z-index: 0;
+        color: var(--clrPink50);
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    main .interests ul li:last-of-type:before{
+        display: none;
+    }
+
+    main .interests ul li::after{
+        display: block;
+        position: absolute;
+        box-sizing: border-box;
+        content: '--';
+        top:3rem;
+        left: 0;
+        z-index: 0;
+        color: var(--clrPink50);
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    main .interests ul li:first-of-type:after{
+        display: none;
+    }
+
+    main .interests ul li span{
+        display: block;
+        position: relative;
+        width: 7rem;
+        height: 7rem;
+        background-color:var(--clrGray900);
+        color: var(--clrPink50);
+        border-radius: 50%;
+        margin:0 auto;
+        font-size:3rem;
+        line-height: 7rem;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    main .interests ul li h3{
+        color: var(--clrBlack700);
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 1rem 0 1.5rem 0;
+        font-family: Roboto !important;
+    }
+
+    main .interests ul li.mark span{
+        background-color:var(--clrPink50);
+        color:var(--clrGray900);
+        transition: background-color 0.5s ease-in-out;
+    }
+
+    main .interests ul li.mark h3{
+        font-weight: 800;
+    }
+
+    main .interests ul li div{
+        display: none;
+        
+    }
+
+    main .interests li .indicator{
+        display: none;
+    }
+
+    main .interests li.mark .indicator{
+        display: block;
+        position: absolute;
+        box-sizing: border-box;
+        width: 3rem;
+        height: 3rem;
+        border: seagreen 1px;
+        border-radius: 0;
+        background-color:var(--clrGray900) !important;
+        z-index: 1;
+        bottom: -2rem;
+        left: 50%;
+        transform:translateX(-50%) rotate(45deg);
+    }
+
+main .interests .summary{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background-color:var(--clrGray900);
+    padding: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+
+main .interests .summary h4{
+    display: none;
+}
+
+main .interests .summary p{
+    color: var(--clrBlack500);
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+main .interests  p strong{
+    color: var(--clrPink100);
+}
+
+
+
+/*media ----------------------------------------------------*/   
+@media only screen and (max-width: 900px){
+    main .interests ul li::before{
+        content: '-';
+    }
+
+
+    main .interests ul li::after{
+        content: '-';
+    }
+}
+
+@media only screen and (max-width: 800px){
+   
+    main .interests ul li{
+        width: 100%;
+    }
+
+    main .interests ul li::before{
+        display:none;
+    }
+
+    main .interests ul li::after{
+        display: none;
+    }
+
+    main .interests ul li span{
+        display: block;
+        position: absolute;
+        width: 7rem;
+        height: 7rem;
+        margin: 0;
+        top: 0.5rem;
+        left: 2rem;
+        z-index: 1;
+        box-shadow: rgb(146, 146, 146) 1px 1px 5px 2px;
+    }
+
+    main .interests ul li.mark span{
+        background-color:var(--clrGray900);
+        color: var(--clrPink50);
+    }
+
+
+    main .interests ul li h3{
+        display: none;
+    }
+
+
+    main .interests ul li h4{
+        display: block;
+        text-align: left;
+        font-weight: 600;
+        color: var(--clrBlack700);
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 3rem 0 1.5rem 0;
+        font-family: Roboto !important;
+    }
+
+
+
+    main .interests ul li div{
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        background-color:var(--clrGray900);
+        padding: 2rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        margin-bottom: 0;
+        margin-top: 4rem;
+    }
+
+    main .interests  ul li div p{
+        color: var(--clrBlack500);
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: justify;
+    }
+
+    main .interests li.mark .indicator{
+        display: none;
+    }
+
+
+main .interests .summary{
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 750px){
+    main .interests ul li::before{
+        content: '';
+    }
+
+
+    main .interests ul li::after{
+        content: '';
+    }
+}
+
+@media only screen and (max-width: 660px){
+    main .info .content {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        clear:both;
+    }
+
+        main .info .content:last-of-type {
+            margin-left: 0;
+        }
+
+    main .info::after {
+        display: none;
+        width: 0;
+       
+    }
+
+    main .info .about {
+        position:relative;
+        margin-top:2rem;
+        padding-top:2rem;
+    }
+
+    main .info .about:before {
+        display: block;
+        box-sizing: border-box;
+        content: "";
+        height: 0.05rem;
+        background-color: var(--clrPink25);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:0;
+    }
+
+    main .skills .wrapper ul li{
+        width: calc(100% / 2 - 1rem);
+        margin-right: 2rem;
+    }
+
+    main .skills .wrapper ul li:nth-of-type(3n+3){
+        margin-right: 2rem;
+    }
+
+    main .skills .wrapper ul li:nth-of-type(2n+2){
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    main .skills .wrapper ul li{
+        width: 100%;
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+
+    header h1 {
+        clear:both;
+        width: 100%;
+        padding-top: 2rem;
+    } 
+
+    main .experience h2 {
+        font-size: 1.5rem;
+        line-height: 5rem;
+    }
+
+    main .experience h3 {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    main .experience p {
+        font-size: 0.8rem;
+        line-height: 1.75rem;
+    }
+
+    main .experience ol h4 {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    main .experience .wrapper > ol > li {
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+    }
+ 
+}
+
+
+@media only screen and (max-width: 230px) {
+    header img {
+        width:8rem;
+        height:8rem;
+    }
+
+    header h1 {
+        clear: both;
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+    }
+}
+
+
+
+
+/*=============================================*/
+
+.golnarfarnudimenu{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.golnarfarnudimenu .mainmenu{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.golnarfarnudimenu ul {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.golnarfarnudimenu ul li{
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-right: 1.25rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.golnarfarnudimenu ul li:last-of-type{
+    margin-right: 0;
+
+}
+
+
+.golnarfarnudimenu h1{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 4rem 0;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 800;
+}
+
+/*golnarfarnudishow---------------------------------------*/
+.golnarfarnudishow{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 40%;
+
+}
+
+/* .golnarfarnudishow .sections{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    
+
+} */
+.golnarfarnudishow  div{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgb(197, 197, 197) 0px 0px 5px 2px;
+}
+
+.golnarfarnudishow .section1{
+    width:calc(20% - 1rem);
+    top: 1rem;
+    bottom: calc(50%);
+    left: 1rem;
+    background-color: red;
+}
+
+.golnarfarnudishow .section2{
+    top: 1rem;
+    bottom: calc(50%);
+    left: calc(20%  + 1rem);
+    width: calc(20% - 1rem);
+    background-color: seagreen;
+}
+
+.golnarfarnudishow .section3{
+    top: 1rem;
+    bottom: calc(50%);
+    left: calc(40% + 1rem);
+    width: calc(20% + 2rem);
+    background-color: seagreen;
+}
+
+
+.golnarfarnudishow .section4{
+    top: calc(50% + 1rem);
+    bottom: 1rem;
+    left: 1rem;
+    width: calc(60% + 2rem);
+    background-color: seagreen;
+}
+
+
+
+.golnarfarnudishow .section5{
+    top: 1rem;
+    bottom: 1rem;
+    right: 1rem;
+    width: calc(40% - 5rem);
+    background-color: seagreen;
+}
+
+
+/*golnarfarnudishow----------------------------------*/
+.golnarfarnudiintroduction div{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+.golnarfarnudiintroduction h2{
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+}
+
+.golnarfarnudiintroduction .cat{
+    width: calc(100% / 2 - 2rem);
+    margin-right: 4rem;
+    float: left;
+    margin-top: 6rem;
+}
+
+.golnarfarnudiintroduction .cat:last-of-type{
+    margin-right: 0;
+}
+
+.golnarfarnudiintroduction .cat span{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    box-shadow: rgb(197, 197, 197) 0px 0px 5px 2px;
+}
+
+/*golnarfarnudiemploymenthistory---------------------------------------*/
+.golnarfarnudiemploymenthistory{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.golnarfarnudiemploymenthistory h2{
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.golnarfarnudiemploymenthistory ul{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    padding: 0.2rem;
+}
+
+.golnarfarnudiemploymenthistory ul li{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: calc(100% / 4 - 1.2rem);
+    margin-right: 1.6rem;
+    float: left;
+    text-align: justify;
+    margin-top: 2rem;
+    box-shadow: rgb(197, 197, 197) 0px 0px 5px 2px;
+}
+
+.golnarfarnudiemploymenthistory ul li:nth-of-type(4n + 4){
+    margin-right: 0;
+}
+
+.golnarfarnudiemploymenthistory ul li span{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 1rem;
+}
+
+.golnarfarnudiemploymenthistory ul li h3{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 600;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    padding:0.5rem;
+    background-color: rgba(95, 4, 91, 0.5);
+    color: var(--clrGray900);
+}
+
+.golnarfarnudiemploymenthistory ul li p{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    height: 5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* golnarfarnudiArt ------------------------------------*/
+.golnarfarnudiArt{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(95, 4, 91, 0.5);
+    text-align: justify;
+    margin-top: 4rem;
+}
+
+.golnarfarnudiArt::after{
+    content: '';
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    top:0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.golnarfarnudiArt .wrapper{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+
+.golnarfarnudiArt .wrapper .artcontent{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 1;
+    right: calc(50% + 4rem);
+    left: 2rem;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    line-height: 2rem;
+
+}
+
+.golnarfarnudiArtdetails{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.golnarfarnudiArtdetails ul{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    padding: 2rem 0.2rem;
+}
+.golnarfarnudiArtdetails ul li{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: calc(100% / 3 - 1rem);
+    margin-right: 1.5rem;
+    float: left;
+    background-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 20%;
+    box-shadow: rgb(197, 197, 197) 0px 0px 5px 2px;
+    /* box-shadow: rgb(218, 218, 218) 1px 5px 9px 5px; */
+}
+
+.golnarfarnudiArtdetails ul li:last-of-type{
+    margin-right: 0;
+}
+
+.golnarfarnudiArtdetails ul li::after{
+    content: '';
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.golnarfarnudiArtdetails ul li:hover::after{
+    top:100%;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    
+}
+
+
+.golnarfarnudiArtdetails ul li h4{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 1;
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.golnarfarnudiArtdetails ul li span{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 1;
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+
+
+
+ .golnarfarnudicontact ul{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 2rem auto;
+    z-index: 1;
+    text-align: center;
+}
+
+.golnarfarnudicontact ul li{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: calc(100% /5 - 0.8rem);
+    float:left;
+    /* margin-right: 6rem;
+    padding: 0.2rem; */
+    border: solid 0.1rem;
+    margin-right: 1rem;
+    padding: 1rem 0;
+}
+
+.golnarfarnudicontact ul li:last-of-type{
+    margin-right: 0;
+}
+
+
+.golnarfarnudicontact ul li a{
+    text-decoration: none;
+    display:block;
+    position: relative;
+    width: 100%;
+    /* border-radius: 50%; */
+    text-align: center;
+    /* box-shadow: rgb(197, 197, 197) 0px 0px 5px 2px; */
+} 
+
+ .golnarfarnudicontact ul li a span{
+    display:block;
+    position: relative;
+    box-sizing: border-box;
+   
+    font-size: 4rem;
+    
+}  
+
+
+.golnarfarnudicontact ul li > span{
+    display:block;
+    position: relative;
+    box-sizing: border-box;
+    float:left;
+    width: 100%;
+} 
+
+.golnarfarnudicontact ul li > span:first-of-type{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    /* color: var(--clrGray100); */
+    font-weight: 400;
+} 
+
+.golnarfarnudicontact ul li > span:last-of-type{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    /* color: var(--clrBlack900); */
+    font-weight: 500;
+} 
+
+
+.golnarfarnudicontact ul li.phonelink{
+    color: rgb(228, 128, 15);
+}
+
+.golnarfarnudicontact ul li.phonelink:hover{
+    background-color:rgb(228, 128, 15);
+    color: white;
+    
+}
+
+
+.golnarfarnudicontact ul li.linkedinlink{
+    color: #0077b5;
+}
+
+.golnarfarnudicontact ul li.linkedinlink:hover{
+    background-color:#0077b5;
+    color: white;
+}
+
+.golnarfarnudicontact ul li.instagramlink{
+    color: #8a3ab9;
+}
+
+.golnarfarnudicontact ul li.instagramlink:hover{
+    background-color:#8a3ab9;
+    color: white;
+}
+
+.golnarfarnudicontact ul li.facebooklink{
+    color: rgb(66, 103, 178);
+}
+
+.golnarfarnudicontact ul li.facebooklink:hover{
+    background-color:rgb(66, 103, 178);
+    color: white;
+}
+
+.golnarfarnudicontact ul li.maillink{
+    color: #d14836;
+}
+
+.golnarfarnudicontact ul li.maillink:hover{
+    background-color:#d14836;
+    color: white;
+}
+
+.golnarfarnudicontact ul li:hover{
+    transition: background-color ease-in-out 0.1s;
+}
+
