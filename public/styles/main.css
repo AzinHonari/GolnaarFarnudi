@@ -65,14 +65,14 @@ a{
     padding:2rem;
 }
 
-.golnarfarnudimenu{
+.menu{
     display: block;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
     
 }
-.golnarfarnudimenu .mainmenu{
+.menu .mainmenu{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -83,14 +83,14 @@ a{
 }
 
 
-.golnarfarnudimenu ul {
+.menu ul {
     display: block;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
 }
 
-.golnarfarnudimenu ul li{
+.menu ul li{
     display: inline-block;
     position: relative;
     box-sizing: border-box;
@@ -100,13 +100,13 @@ a{
     line-height: 2rem;
     font-weight: 500;
 }
-.golnarfarnudimenu ul li:last-of-type{
+.menu ul li:last-of-type{
     margin-right: 0;
 
 }
 
 
-.golnarfarnudimenu h1{
+.menu h1{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -118,8 +118,8 @@ a{
     font-weight: 800;
 }
 
-/*golnarfarnudishow---------------------------------------*/
-.golnarfarnudishow{
+/*show---------------------------------------*/
+.show{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -129,7 +129,7 @@ a{
 
 }
 
-/* .golnarfarnudishow .sections{
+/* .show .sections{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -138,7 +138,7 @@ a{
     
 
 } */
-.golnarfarnudishow  div{
+.show  div{
     display: block;
     position: absolute;
     box-sizing: border-box;
@@ -148,7 +148,7 @@ a{
     box-shadow: rgb(197, 197, 197) 0px 0px 5px 2px;
 }
 
-.golnarfarnudishow .section1{
+.show .section1{
     width:calc(20% - 1rem);
     top: 1rem;
     bottom: calc(50%);
@@ -156,7 +156,7 @@ a{
     background-color: red;
 }
 
-.golnarfarnudishow .section2{
+.show .section2{
     top: 1rem;
     bottom: calc(50%);
     left: calc(20%  + 1rem);
@@ -164,7 +164,7 @@ a{
     background-color: seagreen;
 }
 
-.golnarfarnudishow .section3{
+.show .section3{
     top: 1rem;
     bottom: calc(50%);
     left: calc(40% + 1rem);
@@ -173,7 +173,7 @@ a{
 }
 
 
-.golnarfarnudishow .section4{
+.show .section4{
     top: calc(50% + 1rem);
     bottom: 1rem;
     left: 1rem;
@@ -183,7 +183,7 @@ a{
 
 
 
-.golnarfarnudishow .section5{
+.show .section5{
     top: 1rem;
     bottom: 1rem;
     right: 1rem;
@@ -192,8 +192,8 @@ a{
 }
 
 
-/*golnarfarnudishow----------------------------------*/
-.golnarfarnudiintroduction div{
+/*show----------------------------------*/
+.introduction div{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -205,24 +205,24 @@ a{
     margin-top: 2rem;
 }
 
-.golnarfarnudiintroduction h2{
+.introduction h2{
     font-size: 1.25rem;
     line-height: 2.5rem;
     font-weight: 500;
 }
 
-.golnarfarnudiintroduction .cat{
+.introduction .cat{
     width: calc(100% / 2 - 2rem);
     margin-right: 4rem;
     float: left;
     margin-top: 6rem;
 }
 
-.golnarfarnudiintroduction .cat:last-of-type{
+.introduction .cat:last-of-type{
     margin-right: 0;
 }
 
-.golnarfarnudiintroduction .cat span{
+.introduction .cat span{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -237,22 +237,22 @@ a{
     box-shadow: rgb(197, 197, 197) 0px 0px 5px 2px;
 }
 
-/*golnarfarnudiemploymenthistory---------------------------------------*/
-.golnarfarnudiemploymenthistory{
+/*employmenthistory---------------------------------------*/
+.employmenthistory{
     display: block;
     position: relative;
     box-sizing: border-box;
     width: 100%;
 }
 
-.golnarfarnudiemploymenthistory h2{
+.employmenthistory h2{
     font-size: 1.25rem;
     line-height: 2.5rem;
     font-weight: 500;
     margin-top: 2rem;
 }
 
-.golnarfarnudiemploymenthistory ul{
+.employmenthistory ul{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -261,7 +261,7 @@ a{
     padding: 0.2rem;
 }
 
-.golnarfarnudiemploymenthistory ul li{
+.employmenthistory ul li{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -274,11 +274,11 @@ a{
     box-shadow: rgb(197, 197, 197) 0px 0px 5px 2px;
 }
 
-.golnarfarnudiemploymenthistory ul li:nth-of-type(4n + 4){
+.employmenthistory ul li:nth-of-type(4n + 4){
     margin-right: 0;
 }
 
-.golnarfarnudiemploymenthistory ul li span{
+.employmenthistory ul li span{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -290,7 +290,7 @@ a{
     margin-bottom: 1rem;
 }
 
-.golnarfarnudiemploymenthistory ul li h3{
+.employmenthistory ul li h3{
     display: block;
     position: absolute;
     box-sizing: border-box;
@@ -305,7 +305,7 @@ a{
     color: var(--clrGray900);
 }
 
-.golnarfarnudiemploymenthistory ul li p{
+.employmenthistory ul li p{
     font-size: 0.9rem;
     line-height: 1.5rem;
     font-weight: 500;
@@ -314,8 +314,8 @@ a{
     margin-bottom: 1rem;
 }
 
-/* golnarfarnudiArt ------------------------------------*/
-.golnarfarnudiArt{
+/* Art ------------------------------------*/
+.Art{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -327,7 +327,7 @@ a{
     margin-top: 4rem;
 }
 
-.golnarfarnudiArt::after{
+.Art::after{
     content: '';
     display: block;
     position: absolute;
@@ -339,7 +339,7 @@ a{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.golnarfarnudiArt .wrapper{
+.Art .wrapper{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -349,7 +349,7 @@ a{
     height: 30rem;
 }
 
-.golnarfarnudiArt .wrapper .artcontent{
+.Art .wrapper .artcontent{
     display: block;
     position: absolute;
     box-sizing: border-box;
@@ -363,13 +363,13 @@ a{
 
 }
 
-.golnarfarnudiArtdetails{
+.Artdetails{
     display: block;
     position: relative;
     box-sizing: border-box;
 }
 
-.golnarfarnudiArtdetails ul{
+.Artdetails ul{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -377,7 +377,7 @@ a{
     width: 100%;
     padding: 2rem 0.2rem;
 }
-.golnarfarnudiArtdetails ul li{
+.Artdetails ul li{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -396,11 +396,11 @@ a{
     /* box-shadow: rgb(218, 218, 218) 1px 5px 9px 5px; */
 }
 
-.golnarfarnudiArtdetails ul li:last-of-type{
+.Artdetails ul li:last-of-type{
     margin-right: 0;
 }
 
-.golnarfarnudiArtdetails ul li::after{
+.Artdetails ul li::after{
     content: '';
     display: block;
     position: absolute;
@@ -412,7 +412,7 @@ a{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.golnarfarnudiArtdetails ul li:hover::after{
+.Artdetails ul li:hover::after{
     top:100%;
     right: 100%;
     bottom: 0;
@@ -421,7 +421,7 @@ a{
 }
 
 
-.golnarfarnudiArtdetails ul li h4{
+.Artdetails ul li h4{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -433,7 +433,7 @@ a{
     font-weight: 600;
 }
 
-.golnarfarnudiArtdetails ul li span{
+.Artdetails ul li span{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -448,7 +448,7 @@ a{
 
 
 
- .golnarfarnudicontact ul{
+ .contact ul{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -458,7 +458,7 @@ a{
     text-align: center;
 }
 
-.golnarfarnudicontact ul li{
+.contact ul li{
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -472,12 +472,12 @@ a{
     padding: 1rem 0;
 }
 
-.golnarfarnudicontact ul li:last-of-type{
+.contact ul li:last-of-type{
     margin-right: 0;
 }
 
 
-.golnarfarnudicontact ul li a{
+.contact ul li a{
     text-decoration: none;
     display:block;
     position: relative;
@@ -487,7 +487,7 @@ a{
     /* box-shadow: rgb(197, 197, 197) 0px 0px 5px 2px; */
 } 
 
- .golnarfarnudicontact ul li a span{
+ .contact ul li a span{
     display:block;
     position: relative;
     box-sizing: border-box;
@@ -497,7 +497,7 @@ a{
 }  
 
 
-.golnarfarnudicontact ul li > span{
+.contact ul li > span{
     display:block;
     position: relative;
     box-sizing: border-box;
@@ -505,7 +505,7 @@ a{
     width: 100%;
 } 
 
-.golnarfarnudicontact ul li > span:first-of-type{
+.contact ul li > span:first-of-type{
     margin-top: 2rem;
     font-size: 0.8rem;
     line-height: 1rem;
@@ -513,7 +513,7 @@ a{
     font-weight: 400;
 } 
 
-.golnarfarnudicontact ul li > span:last-of-type{
+.contact ul li > span:last-of-type{
     margin-top: 1rem;
     font-size: 0.8rem;
     line-height: 1.25rem;
@@ -522,54 +522,54 @@ a{
 } 
 
 
-.golnarfarnudicontact ul li.phonelink{
+.contact ul li.phonelink{
     color: rgb(228, 128, 15);
 }
 
-.golnarfarnudicontact ul li.phonelink:hover{
+.contact ul li.phonelink:hover{
     background-color:rgb(228, 128, 15);
     color: white;
     
 }
 
 
-.golnarfarnudicontact ul li.linkedinlink{
+.contact ul li.linkedinlink{
     color: #0077b5;
 }
 
-.golnarfarnudicontact ul li.linkedinlink:hover{
+.contact ul li.linkedinlink:hover{
     background-color:#0077b5;
     color: white;
 }
 
-.golnarfarnudicontact ul li.instagramlink{
+.contact ul li.instagramlink{
     color: #8a3ab9;
 }
 
-.golnarfarnudicontact ul li.instagramlink:hover{
+.contact ul li.instagramlink:hover{
     background-color:#8a3ab9;
     color: white;
 }
 
-.golnarfarnudicontact ul li.facebooklink{
+.contact ul li.facebooklink{
     color: rgb(66, 103, 178);
 }
 
-.golnarfarnudicontact ul li.facebooklink:hover{
+.contact ul li.facebooklink:hover{
     background-color:rgb(66, 103, 178);
     color: white;
 }
 
-.golnarfarnudicontact ul li.maillink{
+.contact ul li.maillink{
     color: #d14836;
 }
 
-.golnarfarnudicontact ul li.maillink:hover{
+.contact ul li.maillink:hover{
     background-color:#d14836;
     color: white;
 }
 
-.golnarfarnudicontact ul li:hover{
+.contact ul li:hover{
     transition: background-color ease-in-out 0.1s;
 }
 
